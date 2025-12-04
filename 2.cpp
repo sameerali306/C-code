@@ -22,7 +22,7 @@ int main(){
             cout<<"GuessRemaining ="<<Totalgussed-gussedAttempt<<endl;
             if (Totalgussed-gussedAttempt==0)
             {
-               cout<<"You have no attemp left"<<endl;
+               cout<<"You have no attemp left please try next time"<<endl;
                cout<<"The guessed number is ="<<Gussednumber;
             }
             
