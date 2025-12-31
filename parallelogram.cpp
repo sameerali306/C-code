@@ -14,7 +14,7 @@ int main(){
         }
         while (j<=rows)
         {
-            cout<<"*";
+            cout<<"*  ";
             j++;
         }
         cout<<endl;
