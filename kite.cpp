@@ -4,30 +4,38 @@ int main(){
     int rows;
     cout<<"Enter number of rows :";
     cin>>rows;
-    int i=0;
-    while (i<=rows)
+    for (int i = 1; i <=rows; i++)
     {
-        int j=0;
-        while (j<i)
+        for (int s = 1; s <= rows-i; s++)
         {
-            if (j>=2)
-            {
-              cout<<"  %" ; 
-              j++;
-            }else{
-                cout<<" *";
-                j++;
-
-            }
-            
-        
+            cout<<" ";
         }
-       
+        for (int j = 1; j <=2*i-1; j++)
+        {
+            cout<<"*";
+        }
+        
+        for (int s = 1; s <= rows-i; s++)
+        {
+            cout<<" ";
+        }
         cout<<endl;
-            i++;    
+
         
     }
+    // Tail (triangle)
+    for (int i = rows - 1; i >= 1; i--) {
+        for (int s = 1; s <= rows - i; s++) {
+            cout << " ";
+        }
+        for (int j = 1; j <= 2 * i - 1; j++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+
+
+
+    return 0;
     
-
-}
-
+} // namespace std;
