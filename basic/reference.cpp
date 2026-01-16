@@ -9,7 +9,7 @@ int main(){
      cout<<"name ="<<name<<endl; 
      cout<<"myp ="<<myp<<endl;
 
-    string &name2=name;//here we create a reference  by a memory location of name
+    string &name2=name;//here we create a reference  of a memory location of name
     name2="faria hussain \n"; //and chnage the value of that memory address from sameer to faria here the value of name variable also change to faria bcz the 
     
     cout<<"myp ="<<myp<<endl;
