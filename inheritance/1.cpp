@@ -11,8 +11,12 @@ class Animals{
 
 };
 
-class Dog:public Animals{
+class Dog:private Animals{
     public:
+    void performEat(string name){
+        Eat(name);
+
+    }
     void Voice(){
         cout<<"the dog is barking.....";
     }
@@ -20,6 +24,6 @@ class Dog:public Animals{
 
 int main(){
     Dog D1;
-    D1.Eat("dog");
+    D1.performEat("dog");
     D1.Voice();
 }
