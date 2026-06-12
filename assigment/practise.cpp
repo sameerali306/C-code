@@ -14,7 +14,7 @@ class Person{
  
 }; 
  
-class Employee:public Person{ 
+class Employee{ 
     protected: 
     int employeeId; 
  
@@ -22,15 +22,15 @@ class Employee:public Person{
     void inputID(){ 
         cout<<"enter employeeId:"; 
         cin>>employeeId; 
-    }  
+    } 
  
 };  
  
-class Teacher:public Employee{ 
+class Teacher:public Employee,public Person{ 
     private: 
     string subject; 
  
-    public:  
+    public: 
     void inputSubject() { 
         cout<<"Enter subject name:"; 
         cin>>subject; 
