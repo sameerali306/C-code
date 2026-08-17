@@ -14,6 +14,11 @@ a,b=3,-2 #in case if the denominator is negative the remainder will come in nega
 c=a%b
 #print(c)
 
+# name=input("enter your name :")
+# age=int(input("enter your age :"))
+# print("my name is" ,name, "and my age is ",age,)
 name=input("enter your name :")
-age=int(input("enter your age :"))
+age=int(input("enter you age  :"))
 print("my name is" ,name, "and my age is ",age,)
+
+
