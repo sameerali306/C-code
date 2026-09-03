@@ -17,8 +17,16 @@ c=a%b
 # name=input("enter your name :")
 # age=int(input("enter your age :"))
 # print("my name is" ,name, "and my age is ",age,)
-name=input("enter your name :")
-age=int(input("enter you age  :"))
-print("my name is" ,name, "and my age is ",age,)
+# name=input("enter your name :")
+# age=int(input("enter you age  :"))
+# print("my name is" ,name, "and my age is ",age,)
 
+fname=input("Enter your name :")
+marks=input("Enter your total marks :")
+eduction=input("Enter your eduction :")
+
+# print(fname,"again",marks,"in ",eduction)
+# print(f"{fname} gain {marks} in {eduction}") #f string method
+# print("{} again {} in {}".format(marks,fname,eduction)) #.format method
+print("%s gain %s in %s" %(fname,marks,eduction)) #% method
 
